@@ -1,6 +1,7 @@
 import MenuItem from "./MenuItem";
 import { useEffect, useState } from "react";
 import axiosInstance from "../utils/axiosInstance"; // import axiosInstance nếu có
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [categories, setCategories] = useState([]);
@@ -21,7 +22,9 @@ const Sidebar = () => {
   return (
     <div className="md:p-4 bg-[#EFF6FF] overflow-y-auto h-full">
       <div className="md:p-4 p-2 bg-[#2B8DFE] h-full md:rounded-3xl shadow-lg shadow-blue-500/50 text-white">
-        <img src="/logo.png" alt="RR88 logo" className="mb-4" />
+        <Link to="/" className="text-white font-bold">
+          <img src="/logo.png" alt="RR88 logo" className="mb-4" />
+        </Link>
         <input
           type="text"
           placeholder="Tìm Kiếm Hướng Dẫn"

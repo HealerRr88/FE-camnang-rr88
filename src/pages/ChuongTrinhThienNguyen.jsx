@@ -23,7 +23,7 @@ const ChuongTrinhThienNguyen = () => {
   };
 
   return (
-    <div>
+    <div className="p-4 md:p-6">
       <VideoSection
         title="CHƯƠNG TRÌNH THIỆN NGUYỆN RR88"
         description={

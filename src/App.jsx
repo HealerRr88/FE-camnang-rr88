@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate, Link } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Breadcrumb from "./components/Breadcrumb";
 import ChuongTrinhThienNguyen from "./pages/ChuongTrinhThienNguyen";
@@ -34,7 +34,9 @@ export default function App() {
       <div className="flex flex-col md:flex-row h-screen overflow-hidden bg-[#EFF6FF]">
         {/* Nút toggle sidebar chỉ trên mobile */}
         <div className="md:hidden flex justify-between items-center px-4 py-2 bg-[#2B8DFE] text-white">
-          <img src="/logo.png" alt="RR88" className="h-6" />
+          <Link to="/" className="text-white font-bold">
+            <img src="/logo.png" alt="RR88" className="h-6" />
+          </Link>
           <button className="text-white bg-transparent" onClick={() => setMobileMenuOpen(true)}>☰</button>
         </div>
 
@@ -47,8 +49,8 @@ export default function App() {
         <MobileSidebar open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
 
         {/* Nội dung */}
-        <div className="flex-1 p-4 md:p-6 overflow-y-auto">
-          <Breadcrumb />
+        <div className="flex-1 overflow-y-auto">
+          {/* <Breadcrumb /> */}
           <Routes>
             {/* Route động từ API categories */}
             <Route path="/" element={<Home />} />
