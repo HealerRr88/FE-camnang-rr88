@@ -27,8 +27,8 @@ const Slide2 = () => {
             HIỂU THẾ NÀO VỀ TRANG GIẢI TRÍ RR88?
           </h3>
           <p style={{ color: "#fff", marginTop: "20px" }}>
-            <span style={{ color: "rgb(43 141 254)", fontWeight: "bold" }}> RR88 </span> là nền tảng giải trí trực tuyến hàng đầu, mang đến trải nghiệm đa dạng từ casino, game nổ hũ đến các dịch vụ cá cược thể thao hấp dẫn.
-            Với giao diện thân thiện, tốc độ tải nhanh và chính sách bảo mật nghiêm ngặt, RR88 cam kết tạo ra sân chơi công bằng, minh bạch và an toàn cho người dùng tại Việt Nam và khu vực.
+            <span style={{ color: "rgb(43 141 254)", fontWeight: "bold" }}> RR88 </span> là Trò chơi Trực tuyến Miễn phí dành cho Mọi lứa tuổi - Bắt đầu Chơi ngay hôm nay đến các dịch vụ cá cược thể thao hấp dẫn.
+            Với giao diện thân thiện, tốc độ tải nhanh và chính sách bảo mật nghiêm ngặt, RR88 cam kết tạo ra sân chơi lành mạnh, minh bạch và an toàn cho người dùng tại Việt Nam và khu vực.
           </p>
           {/* <a href="#" style={{ color: "#ff9800", marginTop: "20px", display: "inline-block", textDecoration: "underline" }}>
             Xem thêm bài viết
