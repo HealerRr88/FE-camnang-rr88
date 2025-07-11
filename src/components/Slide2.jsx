@@ -54,13 +54,13 @@ const Slide2 = () => {
         <div style={{ flex: 1, textAlign: "center", color: "#fff" }}>
           <h4>TRANG GIẢI TRÍ <span style={{ color: "#00b2ff" }}>RR88</span> là gì?</h4>
           <p style={{ fontSize: "14px", color: "#ccc" }}>
-            TRANG GIẢI TRÍ RR88 là ra sân chơi công bằng, minh bạch và an toàn cho người dùng tại Việt Nam và khu vực châu Á
+            TRANG GIẢI TRÍ RR88 là ra sân chơi lành mạnh, giải trí tại Việt Nam.
           </p>
         </div>
         <div style={{ flex: 1, textAlign: "center", color: "#fff", borderLeft: "1px solid #333", borderRight: "1px solid #333" }}>
           <h4>TRANG GIẢI TRÍ <span style={{ color: "#00b2ff" }}>RR88</span> có những gì?</h4>
           <p style={{ fontSize: "14px", color: "#ccc" }}>
-            Đa dạng từ casino, game nổ hũ đến các dịch vụ cá cược thể thao hấp dẫn
+            Đa dạng từ mini game, trò chơi giả trí.
           </p>
         </div>
         <div style={{ flex: 1, textAlign: "center", color: "#fff" }}>

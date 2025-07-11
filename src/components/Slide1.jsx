@@ -30,12 +30,11 @@ const Slide1 = () => {
             TRANG THƯƠNG HIỆU GIẢI TRÍ TRỰC TUYẾN <span style={{ color: "rgb(43 141 254)" }}>HÀNG ĐẦU CHÂU Á</span>
           </h1>
           <p style={{ color: "#FFF", marginTop: "20px" }}>
-            <span style={{ color: "rgb(43 141 254)", fontWeight: "bold" }}> RR88 </span> là một nhà cái có giấy phép cá cược trực tuyến hợp pháp do Isle of Man và Khu kinh tế Cagayan and
-            Freeport cấp. Với bề dày kinh nghiệm và danh tiếng phục vụ hơn 10 triệu người chơi.
-            <br />
+            <span style={{ color: "rgb(43 141 254)", fontWeight: "bold" }}> RR88 </span> là một website cung cấp trò chơi giải trí mini game và các hoạt động truyền thông.
+            {/* <br />
             RR88 đã và đang khẳng định vị thế của mình trên thị trường game trực tuyến. Với tư cách là một công ty
             trò chơi trực tuyến có trụ sở tại Luân Đôn, Anh, sở hữu đội ngũ nhân tài chuyên nghiệp đông đảo
-            cung cấp sản phẩm phục vụ chất lượng cao.
+            cung cấp sản phẩm phục vụ chất lượng cao. */}
 
           </p>
           {/* <a href="#" style={{ color: "#ff9800", marginTop: "20px", display: "inline-block", textDecoration: "underline" }}>
@@ -49,7 +48,7 @@ const Slide1 = () => {
         </div>
       </div>
 
-      {/* Bottom Tabs */}
+      Bottom Tabs
       <div className="from-gray-900 to-black flex flex-col items-center justify-center text-white">
         <h2 className="text-xl md:text-2xl font-semibold mb-6">
           ● Chọn máy chủ để tham gia
