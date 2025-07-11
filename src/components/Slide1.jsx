@@ -43,9 +43,9 @@ const Slide1 = () => {
         </div>
 
         {/* Right */}
-        <div style={{ flex: 1, textAlign: "center" }}>
+        {/* <div style={{ flex: 1, textAlign: "center" }}>
           <img src={home1} alt="CSKH OKVIP" style={{ maxWidth: "100%", height: "auto" }} />
-        </div>
+        </div> */}
       </div>
 
       Bottom Tabs
